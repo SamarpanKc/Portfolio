@@ -53,7 +53,7 @@
   transition: 1s;
 }
 i:hover {
-  filter: drop-shadow(4px 8px 22px #293042);
+  filter: drop-shadow(4px 8px 22px #344665);
 }
 
 /*NAME */
@@ -89,7 +89,7 @@ i:hover {
     #222938 100%
   );
   background-size: 10px 10px;
-  height: 70vh;
+  height: 84vh;
   width: 100%;
 }
 
