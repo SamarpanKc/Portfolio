@@ -93,8 +93,6 @@ i:hover {
   width: 100%;
 }
 
-/* .projects{} */
-
 .projects .text {
   /* margin: 70px 0; */
   /* text-align: center; */
@@ -137,33 +135,40 @@ i:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .intropage{
+    background-color: #bdc5d0;
+    height: 127vh;
+  }
   .hero {
     flex-direction: column;
     gap: 16px;
-    margin-top: 92px;
+    height: 108vh;
     margin-bottom: 80px;
   }
   .hero .text {
     font-size: 30px;
-    line-height: 65px;
+    line-height: 46px; /* Adjusted line-height for better readability */
     text-align: center;
-    align-items: center;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
   }
   .hero .text .hi {
     font-weight: 500;
     font-size: 24px;
   }
-  /* .hero .media .icons{
-        flex-direction: column;
-    } */
-  /* .hero .media img{
-        width: 250px;
-        justify-content: end;
-    } */
   .name {
     font-size: 52px;
+    margin-top: -107px;
   }
   .name .paragraph {
     font-size: 12px;
+    line-height: 18px;
   }
+  /* .projects{
+    margin-top: 85px; 
+  } */
+  .projects .text{
+    text-align: center;
+  }
+
 }
