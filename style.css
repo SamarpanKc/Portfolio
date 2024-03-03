@@ -93,6 +93,8 @@ i:hover {
   width: 100%;
 }
 
+/* .projects{} */
+
 .projects .text {
   /* margin: 70px 0; */
   /* text-align: center; */
@@ -137,12 +139,12 @@ i:hover {
 @media only screen and (max-width: 600px) {
   .intropage{
     background-color: #bdc5d0;
-    height: 127vh;
+    height: 107vh;
   }
   .hero {
     flex-direction: column;
     gap: 16px;
-    height: 108vh;
+    height: 90vh;
     margin-bottom: 80px;
   }
   .hero .text {
@@ -170,5 +172,4 @@ i:hover {
   .projects .text{
     text-align: center;
   }
-
 }
