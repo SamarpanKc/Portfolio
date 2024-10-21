@@ -114,11 +114,11 @@ i:hover {
   justify-content: space-around;
 }
 
-.projects .container .netflixClone img, .todoList img{
+.projects .container .NPLAcution img, .todoList img, .rockPaperScissors img{
   border-radius: 18px;
   cursor: pointer;
 }
-.projects .container .netflixClone img:hover{
+.projects .container .NPLAcution img:hover, .rockPaperScissors img:hover{
   filter: drop-shadow(4px 8px 22px #3f5efb43);
 }
 
@@ -126,14 +126,15 @@ i:hover {
   filter: drop-shadow(4px 8px 22px #3f5efb43);
 }
 
-.projects .container .netflixClone h3, .todoList h3 {
+.projects .container .NPLAcution h3, .todoList h3, .rockPaperScissors h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   color: #bdc5d0;
 }
 
